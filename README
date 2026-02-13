@@ -1,0 +1,6 @@
+rcpm ports
+----------
+
+A repository containing packages meant to be used with rcpm[1]
+
+[1] https://github.com/hovercats/rcpm
