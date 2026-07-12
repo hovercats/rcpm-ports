@@ -2,3 +2,7 @@
 	path = pkg/rcsm/src
 	url = https://github.com/hovercats/rcsm.git
 	shallow = true
+[submodule "pkg/rcinit/src"]
+	path = pkg/rcinit/src
+	url = https://github.com/hovercats/rcinit.git
+	shallow = true
