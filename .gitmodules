@@ -1,0 +1,4 @@
+[submodule "pkg/rcsm/src"]
+	path = pkg/rcsm/src
+	url = https://github.com/hovercats/rcsm.git
+	shallow = true
