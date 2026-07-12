@@ -1,0 +1,16 @@
+#!/bin/rc
+
+flag e +
+
+DESTDIR=$destdir
+
+./configure \
+	'--prefix=/' \
+	--enable-ksh \
+	--disable-curses \
+	--enable-small
+
+make
+make install
+
+ln -s ksh $destdir/bin/sh

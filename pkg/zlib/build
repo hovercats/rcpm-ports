@@ -1,0 +1,14 @@
+#!/bin/rc
+
+flag e +
+
+DESTDIR=$destdir
+
+./configure \
+    '--prefix=/' \
+
+make
+make install
+
+# Compress manpages
+find $destdir/share/man -type f -exec gzip -n -9 '{}' +
